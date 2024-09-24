@@ -7,7 +7,7 @@ int main()
 {
     float *ptr = NULL;
 
-    aloca(*ptr, 10);
+    aloca(&ptr, 10);
 
 }
 
