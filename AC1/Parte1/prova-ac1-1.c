@@ -48,13 +48,10 @@ void par(int *p, int tam, int **pp, int *qp)
     for(i=0;i<=(tam/2);i++)
     {
         if(i==(tam/2))
-            if(tam%2 ==0)
+            if(tam%2 !=0)
                 sub=*(p+(tam/2));
             else
-            {
-                printf("Input de Numeros impares!");
                 break;
-            }
 
         sub=*(p+i)-*(p+tam-i-1);
         
